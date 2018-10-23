@@ -17,7 +17,7 @@ public class App {
         javax.swing.SwingUtilities.invokeLater(new Runnable(){
             public void run(){
                 createAndShowGUI();
-                System.out.println("cos 12 ");
+                System.out.println("cos 12 cos");
 
             }
 
