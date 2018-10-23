@@ -1,4 +1,4 @@
-package pl.mysource.impl.User;
+package pl.mysource.Application.impl.User;
 
 /**
  * Klasa definiująca Użytkownika

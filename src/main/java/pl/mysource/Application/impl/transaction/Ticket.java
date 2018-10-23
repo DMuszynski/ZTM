@@ -1,4 +1,4 @@
-package pl.mysource.impl.transaction;
+package pl.mysource.Application.impl.transaction;
 
 /**
  * Klasa Abstrakcyjna reprezetujaca Bilet

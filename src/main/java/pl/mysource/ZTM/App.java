@@ -1,4 +1,5 @@
 package pl.mysource.ZTM;
+
 import javax.swing.*;
 
 public class App {
@@ -18,7 +19,6 @@ public class App {
             public void run(){
                 createAndShowGUI();
                 System.out.println("cos 12 cos");
-
             }
 
             });
