@@ -7,6 +7,8 @@ import java.awt.event.ActionListener;
 
 public class Login extends JPanel{
 
+    private Image background;
+
     public Login(){
 
 
@@ -15,6 +17,7 @@ public class Login extends JPanel{
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
         setLayout(null);
+        loadBackground();
 
 
 
@@ -78,4 +81,28 @@ public class Login extends JPanel{
         });
         add(backButton);
     }
+
+
+
+    /*
+    DRAWING BACKGROUND
+*/
+    private void loadBackground(){
+        ImageIcon bg = new ImageIcon("images/background.png");
+        background = bg.getImage();
+    }
+
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        doDrawing(g);
+        Toolkit.getDefaultToolkit().sync();
+    }
+
+    private void doDrawing(Graphics g){
+        Graphics2D g2d = (Graphics2D) g;
+        g.drawImage(background, 0, 0, null);
+    }
+
+
+
 }
