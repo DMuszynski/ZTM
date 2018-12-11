@@ -6,11 +6,14 @@ import java.awt.event.ActionListener;
 
 public class Timetable extends JPanel{
 
+    private Image background;
+
     public Timetable(){
         Main.newWindow.setVisible(true);
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
         setLayout(null);
+        loadBackground();
 
         /*
             ACTION BUTTONS
@@ -18,7 +21,7 @@ public class Timetable extends JPanel{
 
         //BACK
         JButton backButton = new JButton("Powrót");
-        backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-50, 100, 30);
+        backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-80, 100, 30);
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -27,6 +30,25 @@ public class Timetable extends JPanel{
             }
         });
         add(backButton);
+    }
+
+    /*
+    DRAWING BACKGROUND
+    */
+    private void loadBackground(){
+        ImageIcon bg = new ImageIcon("images/background.png");
+        background = bg.getImage();
+    }
+
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        doDrawing(g);
+        Toolkit.getDefaultToolkit().sync();
+    }
+
+    private void doDrawing(Graphics g){
+        Graphics2D g2d = (Graphics2D) g;
+        g.drawImage(background, 0, 0, null);
     }
 
 }

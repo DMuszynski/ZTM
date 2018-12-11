@@ -10,6 +10,7 @@ import java.io.IOException;
 public class Menu extends JPanel{
 
     private Image background;
+    private Image phone;
 
     public Menu(){
 

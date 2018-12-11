@@ -24,7 +24,7 @@ public class SearchConnection extends JPanel{
 
         //BACK
         JButton backButton = new JButton("Powrót");
-        backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-50, 100, 30);
+        backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-80, 100, 30);
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
