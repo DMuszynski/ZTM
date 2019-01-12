@@ -33,15 +33,13 @@ public class Menu extends JPanel{
 
 
 
-
-
         /*
             ACTION BUTTONS
         */
 
         //LOGIN
         JButton loginButton = new JButton("Logowanie");
-        loginButton.setBounds(Window.WIDTH/2 - 60, Window.HEIGHT/2-50, 120, 30);
+        loginButton.setBounds(Window.WIDTH/2 - 60, (Window.HEIGHT/2-25) - 20, 120, 50);
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -53,9 +51,10 @@ public class Menu extends JPanel{
         add(loginButton);
 
 
+
         //REGISTER
         JButton registerButton = new JButton("Rejestracja");
-        registerButton.setBounds(Window.WIDTH/2 - 60, Window.HEIGHT/2-10, 120, 30);
+        registerButton.setBounds(Window.WIDTH/2 - 60, (Window.HEIGHT/2-25) + 40, 120, 50);
         registerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -67,9 +66,10 @@ public class Menu extends JPanel{
         add(registerButton);
 
 
+
         //TIMETABLE
-        JButton timetableButton = new JButton("Rozkład Jazdy");
-        timetableButton.setBounds(Window.WIDTH/2 - 90, Window.HEIGHT/2+30, 180, 30);
+        JButton timetableButton = new JButton(new ImageIcon("images/timetable_icon.png"));
+        timetableButton.setBounds( (Window.WIDTH/2-100) - 400, Window.HEIGHT - 550, 200, 200);
         timetableButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -81,9 +81,10 @@ public class Menu extends JPanel{
         add(timetableButton);
 
 
+
         //TARRIF
-        JButton tarrifButton = new JButton("Bilety");
-        tarrifButton.setBounds(Window.WIDTH/2 - 90, Window.HEIGHT/2+70, 180, 30);
+        JButton tarrifButton = new JButton( new ImageIcon("images/ticket_icon.png"));
+        tarrifButton.setBounds( (Window.WIDTH/2-100) + 400, Window.HEIGHT - 550, 200, 200);
         tarrifButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -95,9 +96,10 @@ public class Menu extends JPanel{
         add(tarrifButton);
 
 
+
         //SEARCH CONNECTION
-        JButton searchConnectionButton = new JButton("Wyszukaj połączenie");
-        searchConnectionButton.setBounds(Window.WIDTH/2 - 90, Window.HEIGHT/2+110, 180, 30);
+        JButton searchConnectionButton = new JButton(new ImageIcon("images/search_icon.png"));
+        searchConnectionButton.setBounds((Window.WIDTH/2-100) - 400, Window.HEIGHT - 300, 200, 200);
         searchConnectionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -109,9 +111,10 @@ public class Menu extends JPanel{
         add(searchConnectionButton);
 
 
+
         //CONTACT
-        JButton contactButton = new JButton("Kontakt");
-        contactButton.setBounds(Window.WIDTH/2 - 90, Window.HEIGHT/2+150, 180, 30);
+        JButton contactButton = new JButton(new ImageIcon("images/phone_icon.png"));
+        contactButton.setBounds((Window.WIDTH/2-100) + 400, Window.HEIGHT - 300, 200, 200);
         contactButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -121,6 +124,7 @@ public class Menu extends JPanel{
             }
         });
         add(contactButton);
+
 
 
         //EXIT

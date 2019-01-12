@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6130ce3f-34c7-4996-b91c-1efdbed0ecd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/phone.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" afterDir="false" />
@@ -13,19 +11,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SearchConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SearchConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tarrif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tarrif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Timetable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,93 +23,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/Contact.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/images/phone.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,9 +84,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>findConnection</find>
+      <find>usernameField</find>
     </findStrings>
     <replaceStrings>
       <replace>searchConnection</replace>
+      <replace>emailField</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,19 +100,19 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Window.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tarrif.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Login.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Register.java" />
         <option value="$PROJECT_DIR$/src/com/company/SearchConnection.java" />
         <option value="$PROJECT_DIR$/src/com/company/Timetable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Register.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="993" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
+    <option name="x" value="2321" />
+    <option name="y" value="479" />
+    <option name="width" value="917" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
@@ -167,8 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544522727657" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547254800868" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -256,7 +209,8 @@
       <workItem from="1542702544282" duration="2338000" />
       <workItem from="1542751907197" duration="512000" />
       <workItem from="1543913689469" duration="4432000" />
-      <workItem from="1544520615237" duration="1674000" />
+      <workItem from="1544520615237" duration="1736000" />
+      <workItem from="1547241300545" duration="11851000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1540285700400</created>
@@ -269,13 +223,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23025000" />
+    <option name="totallyTimeSpent" value="34938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1283896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1280683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24971624" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -283,7 +237,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2462203" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -291,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28725702" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29589632" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -328,10 +282,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        <state relative-caret-position="345">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/javax/swing/ImageIcon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+          <folding>
+            <element signature="e#3823#3824#0" expanded="true" />
+            <element signature="e#3880#3881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -345,63 +330,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/phone.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4533#4534#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagram.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state relative-caret-position="286">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
+        <state relative-caret-position="315">
+          <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
