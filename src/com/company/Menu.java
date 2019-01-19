@@ -21,10 +21,8 @@ public class Menu extends JPanel{
         loadBackground();
 
 
+        ///////////////////////////   TITLE   /////////////////////////////////////
 
-        /*
-            TITTLE
-        */
         JLabel title = new JLabel("ZTM");
         title.setFont(new Font("Arial", Font.BOLD, 70));
         title.setBounds(Window.WIDTH/2 - 85, 80 , 170, 100);
@@ -81,12 +79,11 @@ public class Menu extends JPanel{
 
 
 
-
         ///////////////////////////   BUTTONS    /////////////////////////////////////
 
-        //SEARCH CONNECTION
+        // SEARCH CONNECTION
         JButton searchConnectionButton = new JButton(new ImageIcon("images/search_icon.png"));
-        searchConnectionButton.setBounds((Window.WIDTH/2-100) - 400, Window.HEIGHT - 320, 200, 200);
+        searchConnectionButton.setBounds((Window.WIDTH/2-90) - 400, Window.HEIGHT - 320, 180,180);
         searchConnectionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -96,11 +93,17 @@ public class Menu extends JPanel{
             }
         });
         add(searchConnectionButton);
+        JLabel searchConnectionLabel = new JLabel();
+        searchConnectionLabel.setText("<html><center>Wyszukaj połączenie</center></html>");
+        searchConnectionLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        searchConnectionLabel.setBounds(searchConnectionButton.getBounds().x, searchConnectionButton.getBounds().y + 185, 180, 60);
+        searchConnectionLabel.setForeground(Color.white);
+        add(searchConnectionLabel);
 
 
         //TIMETABLE
         JButton timetableButton = new JButton(new ImageIcon("images/timetable_icon.png"));
-        timetableButton.setBounds( (Window.WIDTH/2-100), Window.HEIGHT - 320, 200, 200);
+        timetableButton.setBounds( (Window.WIDTH/2-90), Window.HEIGHT - 320, 180,180);
         timetableButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -110,25 +113,40 @@ public class Menu extends JPanel{
             }
         });
         add(timetableButton);
+        JLabel timetableLabel = new JLabel();
+        timetableLabel.setText("<html><center>Rozkład jazdy ZTM</center></html>");
+        timetableLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        timetableLabel.setBounds(timetableButton.getBounds().x, timetableButton.getBounds().y + 185, 180, 60);
+        timetableLabel.setForeground(Color.white);
+        add(timetableLabel);
 
 
-        //CONTACT
-        JButton contactButton = new JButton(new ImageIcon("images/info_icon.png"));
-        contactButton.setBounds((Window.WIDTH/2-100) + 400, Window.HEIGHT - 320, 200, 200);
-        contactButton.addActionListener(new ActionListener() {
+        // INFORMATION
+        JButton informationButton = new JButton(new ImageIcon("images/info_icon.png"));
+        informationButton.setBounds((Window.WIDTH/2-90) + 400, Window.HEIGHT - 320, 180, 180);
+        informationButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new Contact());
+                Main.newWindow.setContentPane(new Information());
                 Main.newWindow.revalidate();
             }
         });
-        add(contactButton);
+        add(informationButton);
+        JLabel informationLabel = new JLabel();
+        informationLabel.setText("<html><center>Informacja i Kontakt</center></html>");
+        informationLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        informationLabel.setBounds(informationButton.getBounds().x, informationButton.getBounds().y + 185, 180, 60);
+        informationLabel.setForeground(Color.white);
+        add(informationLabel);
 
+
+
+        ///////////////////////////   EXIT    /////////////////////////////////////
 
         //EXIT
         JButton exitButton = new JButton("Wyjście");
-        exitButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-80, 100, 30);
+        exitButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-50, 100, 30);
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -141,10 +159,8 @@ public class Menu extends JPanel{
 
 
 
+    ///////////////////////////   BUTTONS    /////////////////////////////////////
 
-    /*
-        DRAWING BACKGROUND
-    */
     private void loadBackground(){
         ImageIcon bg = new ImageIcon("images/background.png");
         background = bg.getImage();
@@ -160,8 +176,6 @@ public class Menu extends JPanel{
         Graphics2D g2d = (Graphics2D) g;
         g.drawImage(background, 0, 0, null);
     }
-
-
 
 }
 

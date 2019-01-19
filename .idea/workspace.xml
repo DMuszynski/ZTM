@@ -2,41 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6130ce3f-34c7-4996-b91c-1efdbed0ecd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/RegisterCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ZTM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZTM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/phone_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/timetable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Login$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Login$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/info_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/info_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/search_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/search_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ticket_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ticket_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/timetable_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/timetable_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Contact.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$7.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Tarrif.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/UserPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/UserPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/UserPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/UserPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Information.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,36 +28,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="90" column="66" selection-end-line="133" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/RegisterCredentials.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/UserPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +54,21 @@
     <findStrings>
       <find>findConnection</find>
       <find>usernameField</find>
+      <find>searchConnectionLabel</find>
+      <find>Information</find>
+      <find>ticket</find>
+      <find>cityCard</find>
+      <find>settings</find>
+      <find>contact</find>
     </findStrings>
     <replaceStrings>
-      <replace>searchConnection</replace>
       <replace>emailField</replace>
+      <replace>timetableLabel</replace>
+      <replace>ticket</replace>
+      <replace>cityCard</replace>
+      <replace>settings</replace>
+      <replace>searchConnection</replace>
+      <replace>information</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,10 +84,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Timetable.java" />
         <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/company/Login.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/UserPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/Register.java" />
         <option value="$PROJECT_DIR$/src/com/company/RegisterCredentials.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Information.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/UserPanel.java" />
       </list>
     </option>
   </component>
@@ -147,11 +117,6 @@
             <path>
               <item name="ZTM" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZTM" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZTM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZTM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547893098612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547903487449" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -256,13 +221,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38617000" />
+    <option name="totallyTimeSpent" value="47240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14407684" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14407684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24971624" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,16 +237,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19097586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29485834" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843652" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843652" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21406086" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,16 +319,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/phone.png" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZTM.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -377,19 +332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UserPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diagram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -400,20 +342,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
+    <entry file="file://$PROJECT_DIR$/diagram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RegisterCredentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="735">
+          <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/RegisterCredentials.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

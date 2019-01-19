@@ -5,11 +5,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Contact extends JPanel{
+public class Information extends JPanel{
 
     private Image background;
 
-    public Contact(){
+    public Information(){
         Main.newWindow.setVisible(true);
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
