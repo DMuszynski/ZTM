@@ -32,57 +32,71 @@ public class Register extends JPanel{
 
 
 
-        /*
-            INPUT FIELDS
-         */
+
+
+        ///////////////////////////   INPUT FIELDS    /////////////////////////////////////
+
+        // DANE OSOBOWE
+        JLabel personalDataLabel = new JLabel("Dane osobowe");
+        personalDataLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        personalDataLabel.setBounds(Window.WIDTH/2 - 110, Window.HEIGHT/2 - 160 , 220, 20);
+        personalDataLabel.setForeground(Color.white);
+        add(personalDataLabel);
 
         //  NAME FIELD
         JTextField nameField = new JTextField("Imię", 30);
-        nameField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 160, 260, 40);
+        nameField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 120, 260, 40);
         add(nameField);
 
         //  SURNAME FIELD
         JTextField surnameField = new JTextField("Nazwisko", 30);
-        surnameField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 115, 260, 40);
+        surnameField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 75, 260, 40);
         add(surnameField);
 
         //  BIRTH FIELD
         DateFormat format = new SimpleDateFormat("yyyy--MMMM--dd");
-        JFormattedTextField birthField = new JFormattedTextField(format);
-        birthField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 70, 260, 40);
+        JTextField birthField = new JTextField("Data urodzenia (TODO)");
+        birthField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 30, 260, 40);
         add(birthField);
 
         //  ADDRESS FIELD
-        JTextField addressField = new JTextField("Adres", 30);
-        addressField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 25, 260, 40);
-        add(addressField);
+        JTextField emailField = new JTextField("E-Mail", 30);
+        emailField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 95, 260, 40);
+        add(emailField);
+
+        // DANE KONTAKTOWE
+        JLabel contactDataLabel = new JLabel("Dane kontaktowe");
+        contactDataLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        contactDataLabel.setBounds(Window.WIDTH/2 - 125, Window.HEIGHT/2 + 60 , 250, 20);
+        contactDataLabel.setForeground(Color.white);
+        add(contactDataLabel);
 
         //  PHONE FIELD
         JTextField phoneField = new JTextField("Telefon", 30);
-        phoneField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 20, 260, 40);
+        phoneField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 140, 260, 40);
         add(phoneField);
 
+        //  ADDRESS FIELD
+        JTextField addressField = new JTextField("Adres zamieszkania", 30);
+        addressField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 185, 260, 40);
+        add(addressField);
 
 
-        //  E-MAIL FIELD
-        JTextField emailField = new JTextField("E-Mail", 30);
-        emailField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 120, 260, 40);
-        add(emailField);
-
-        //  PASSWORD FIELD
-        JPasswordField passwordField = new JPasswordField("Hasło", 30);
-        passwordField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 165, 260, 40);
-        add(passwordField);
-
-        // REPEAT PASSWORD FIELD
-        JPasswordField passwordRepeatField = new JPasswordField("Hasło", 30);
-        passwordRepeatField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 210, 260, 40);
-        add(passwordRepeatField);
 
 
-        /*
-            ACTION BUTTONS
-        */
+        /////   ACTION BUTTONS   /////
+
+        //NEXT
+        JButton nextButton = new JButton("Dalej");
+        nextButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT - 115, 100, 30);
+        nextButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.newWindow.setContentPane(new RegisterCredentials());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(nextButton);
 
         //BACK
         JButton backButton = new JButton("Powrót");
