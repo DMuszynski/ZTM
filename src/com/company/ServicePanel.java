@@ -5,12 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class UserPanel extends JPanel{
+public class ServicePanel extends JPanel{
 
     private Image background;
     private Image userProfile;
 
-    public UserPanel(){
+    public ServicePanel(){
 
 
 
@@ -24,7 +24,7 @@ public class UserPanel extends JPanel{
 
         ///////////////////////////   TITLE    /////////////////////////////////////
 
-        JLabel title = new JLabel("Panel Użytkownika");
+        JLabel title = new JLabel("Panel Pracownika");
         title.setFont(new Font("Arial", Font.BOLD, 40));
         title.setBounds(Window.WIDTH/2 - 220, 30 , 440, 100);
         title.setForeground(Color.white);
@@ -50,7 +50,7 @@ public class UserPanel extends JPanel{
         panelLabel.setForeground(Color.white);
         userDataPanel.add(panelLabel);
 
-        // SURNAME
+        // NAME
         JLabel userName = new JLabel();
         userName.setText("<html><center>Imię</center></html>");
         userName.setFont(new Font("Arial", Font.BOLD, 18));
@@ -58,13 +58,21 @@ public class UserPanel extends JPanel{
         userName.setForeground(Color.white);
         userDataPanel.add(userName);
 
-        // NAME
+        // SURNAME
         JLabel userSurname = new JLabel();
         userSurname.setText("<html><center>Nazwisko</center></html>");
         userSurname.setFont(new Font("Arial", Font.BOLD, 18));
         userSurname.setBounds(10, 80, 290, 30);
         userSurname.setForeground(Color.white);
         userDataPanel.add(userSurname);
+
+        // NAME
+        JLabel workerPosition = new JLabel();
+        workerPosition.setText("<html><center>Stanowisko</center></html>");
+        workerPosition.setFont(new Font("Arial", Font.BOLD, 18));
+        workerPosition.setBounds(10, 130, 290, 30);
+        workerPosition.setForeground(Color.white);
+        userDataPanel.add(workerPosition);
 
 
 
@@ -90,9 +98,10 @@ public class UserPanel extends JPanel{
         add(ticketLabel);
 
 
+
         // CITY CARD
         JButton cityCardButton = new JButton(new ImageIcon("images/city_card_icon.png"));
-        cityCardButton.setBounds((Window.WIDTH/2-90), Window.HEIGHT - 500, 180,180);
+        cityCardButton.setBounds((Window.WIDTH/2-90) - 200, Window.HEIGHT - 500, 180,180);
         cityCardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -110,9 +119,10 @@ public class UserPanel extends JPanel{
         add(cityCardLabel);
 
 
+
         // SETTINGS
         JButton settingsButton = new JButton(new ImageIcon("images/settings_icon.png"));
-        settingsButton.setBounds((Window.WIDTH/2-90) + 400, Window.HEIGHT - 500, 180,180);
+        settingsButton.setBounds((Window.WIDTH/2-90), Window.HEIGHT - 500, 180,180);
         settingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -128,6 +138,28 @@ public class UserPanel extends JPanel{
         settingsLabel.setBounds(settingsButton.getBounds().x, settingsButton.getBounds().y + 185, 180, 50);
         settingsLabel.setForeground(Color.white);
         add(settingsLabel);
+
+
+
+        // WORK SCHEDULE
+        JButton workScheduleButton = new JButton(new ImageIcon("images/work_schedule_icon.png"));
+        workScheduleButton.setBounds((Window.WIDTH/2-90) + 400, Window.HEIGHT - 500, 180,180);
+        workScheduleButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.newWindow.setVisible(false);
+                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(workScheduleButton);
+        JLabel workScheduleLabel = new JLabel();
+        workScheduleLabel.setText("<html><center>Harmonogram Pracy</center></html>");
+        workScheduleLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        workScheduleLabel.setBounds(workScheduleButton.getBounds().x, workScheduleButton.getBounds().y + 185, 180, 50);
+        workScheduleLabel.setForeground(Color.white);
+        add(workScheduleLabel);
+
 
 
         // SEARCH CONNECTION
@@ -150,9 +182,10 @@ public class UserPanel extends JPanel{
         add(searchConnectionLabel);
 
 
+
         // TIMETABLE
         JButton timetableButton = new JButton(new ImageIcon("images/timetable_icon.png"));
-        timetableButton.setBounds( (Window.WIDTH/2-90), Window.HEIGHT - 250, 180,180);
+        timetableButton.setBounds( (Window.WIDTH/2-90) - 200, Window.HEIGHT - 250, 180,180);
         timetableButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -170,9 +203,10 @@ public class UserPanel extends JPanel{
         add(timetableLabel);
 
 
+
         // CONTACT
         JButton informationButton = new JButton(new ImageIcon("images/info_icon.png"));
-        informationButton.setBounds((Window.WIDTH/2-90) + 400, Window.HEIGHT - 250, 180,180);
+        informationButton.setBounds((Window.WIDTH/2-90), Window.HEIGHT - 250, 180,180);
         informationButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -188,6 +222,27 @@ public class UserPanel extends JPanel{
         informationLabel.setBounds(informationButton.getBounds().x, informationButton.getBounds().y + 185, 180, 60);
         informationLabel.setForeground(Color.white);
         add(informationLabel);
+
+
+
+        // WORK SCHEDULE
+        JButton createCardButton = new JButton(new ImageIcon("images/create_card_icon.png"));
+        createCardButton.setBounds((Window.WIDTH/2-90) + 400, Window.HEIGHT - 250, 180,180);
+        createCardButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.newWindow.setVisible(false);
+                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(createCardButton);
+        JLabel createCardLabel = new JLabel();
+        createCardLabel.setText("<html><center>Wydaj kartę miejską</center></html>");
+        createCardLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        createCardLabel.setBounds(createCardButton.getBounds().x, createCardButton.getBounds().y + 185, 180, 50);
+        createCardLabel.setForeground(Color.white);
+        add(createCardLabel);
 
 
 

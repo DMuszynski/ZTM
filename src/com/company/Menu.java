@@ -56,7 +56,7 @@ public class Menu extends JPanel{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new UserPanel());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });
@@ -81,6 +81,7 @@ public class Menu extends JPanel{
 
         ///////////////////////////   BUTTONS    /////////////////////////////////////
 
+
         // SEARCH CONNECTION
         JButton searchConnectionButton = new JButton(new ImageIcon("images/search_icon.png"));
         searchConnectionButton.setBounds((Window.WIDTH/2-90) - 400, Window.HEIGHT - 320, 180,180);
@@ -101,6 +102,7 @@ public class Menu extends JPanel{
         add(searchConnectionLabel);
 
 
+
         //TIMETABLE
         JButton timetableButton = new JButton(new ImageIcon("images/timetable_icon.png"));
         timetableButton.setBounds( (Window.WIDTH/2-90), Window.HEIGHT - 320, 180,180);
@@ -119,6 +121,7 @@ public class Menu extends JPanel{
         timetableLabel.setBounds(timetableButton.getBounds().x, timetableButton.getBounds().y + 185, 180, 60);
         timetableLabel.setForeground(Color.white);
         add(timetableLabel);
+
 
 
         // INFORMATION
