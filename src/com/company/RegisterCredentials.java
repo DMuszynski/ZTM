@@ -19,8 +19,6 @@ public class RegisterCredentials extends JPanel{
         setLayout(null);
         loadBackground();
 
-
-
         /*
             TITTLE
         */
@@ -33,10 +31,9 @@ public class RegisterCredentials extends JPanel{
 
 
 
-
         ///////////////////////////   INPUT FIELDS    /////////////////////////////////////
 
-        // DANE OSOBOWE
+        // DANE LOGOWANIA
         JLabel personalDataLabel = new JLabel("Dane do logowania");
         personalDataLabel.setFont(new Font("Arial", Font.BOLD, 25));
         personalDataLabel.setBounds(Window.WIDTH/2 - 140, Window.HEIGHT/2 - 125 , 280, 30);
@@ -57,6 +54,7 @@ public class RegisterCredentials extends JPanel{
         JTextField birthField = new JTextField("Powtórz hasło");
         birthField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 10, 260, 40);
         add(birthField);
+
 
 
 

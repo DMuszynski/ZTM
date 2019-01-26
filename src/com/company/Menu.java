@@ -1,11 +1,10 @@
 package com.company;
-import javax.imageio.ImageIO;
+import com.company.panels.UserPanel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
 
 public class Menu extends JPanel{
 
@@ -36,7 +35,7 @@ public class Menu extends JPanel{
         ///////////////////////////   LOGIN    /////////////////////////////////////
 
         //  MAIL TEXT FIELD
-        JTextField emailField = new JTextField("E-Mail", 30);
+        JTextField emailField = new JTextField("Login", 30);
         emailField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2-150, 260, 40);
         add(emailField);
 
@@ -56,7 +55,7 @@ public class Menu extends JPanel{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new AdminPanel());
+                Main.newWindow.setContentPane(new UserPanel());
                 Main.newWindow.revalidate();
             }
         });
