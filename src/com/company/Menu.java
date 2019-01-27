@@ -1,5 +1,5 @@
 package com.company;
-import com.company.panels.UserPanel;
+import com.company.panels.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -55,7 +55,7 @@ public class Menu extends JPanel{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new UserPanel());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });

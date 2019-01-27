@@ -5,11 +5,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Information extends JPanel{
+public class WorkSchedule extends JPanel{
 
     private Image background;
 
-    public Information(){
+    public WorkSchedule(){
         Main.newWindow.setVisible(true);
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
@@ -20,9 +20,9 @@ public class Information extends JPanel{
 
         ///////////////////////////   TITLE    /////////////////////////////////////
 
-        JLabel title = new JLabel("Informacja");
+        JLabel title = new JLabel("Harmonogram Pracy");
         title.setFont(new Font("Arial", Font.BOLD, 40));
-        title.setBounds(Window.WIDTH/2 - 130, 30 , 260, 100);
+        title.setBounds(Window.WIDTH/2 - 250, 30 , 500, 100);
         title.setForeground(Color.white);
         add(title);
 
@@ -32,60 +32,28 @@ public class Information extends JPanel{
 
         JPanel contactPanel = new JPanel();
         contactPanel.setSize(500,450);
-        contactPanel.setLocation(70, 200);
+        contactPanel.setLocation(Window.WIDTH/2 - 250, 200);
         contactPanel.setLayout(null);
         contactPanel.setBackground(new Color(0,0,0,30));
         contactPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
         add(contactPanel);
 
-        JLabel contactPanelLabel = new JLabel("Kontakt");
-        contactPanelLabel.setFont(new Font("Arial", Font.BOLD, 30));
-        contactPanelLabel.setBounds(contactPanel.getBounds().width/2-80, 20 , 160, 50);
-        contactPanelLabel.setForeground(new Color(14, 165, 191, 248));
-        contactPanel.add(contactPanelLabel);
-
         JLabel contactPanelContent = new JLabel();
         contactPanelContent.setText("" +
-                "<html>" +
-                "Telefon:&emsp;000 000 000 <br>" +
-                " E-mail: &emsp;  poczta@ztm.pl <br><br><br>" +
-                " <center> <u>Punkt Obsługi Klienta</u> <br><br> " +
-                "ul. Wojowników 10 <br> 00-000 Nilfgaard </center> " +
+                "<html> " +
+                "Poniedziałek <br><br>" +
+                "Wtorek <br><br>" +
+                "Środa <br><br>" +
+                "Czwartek <br><br>" +
+                "Piątek <br><br>" +
+                "Sobota <br><br>" +
+                "Niedziela <br><br>" +
                 "</html>");
         contactPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
-        contactPanelContent.setBounds(50, 80 , 400, 350);
+        contactPanelContent.setBounds(50, 80 , 400, 450);
         contactPanelContent.setForeground(Color.white);
         contactPanel.add(contactPanelContent);
 
-
-        ///////////////////////////   TICKET PANEL    /////////////////////////////////////
-
-        JPanel ticketInfoPanel = new JPanel();
-        ticketInfoPanel.setSize(500,450);
-        ticketInfoPanel.setLocation(Window.WIDTH-570, 200);
-        ticketInfoPanel.setLayout(null);
-        ticketInfoPanel.setBackground(new Color(0,0,0,30));
-        ticketInfoPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));;
-        add(ticketInfoPanel);
-
-        JLabel ticketInfoPanelLabel = new JLabel("Cennik Biletów");
-        ticketInfoPanelLabel.setFont(new Font("Arial", Font.BOLD, 30));
-        ticketInfoPanelLabel.setBounds(ticketInfoPanel.getBounds().width/2-150, 20 , 300, 50);
-        ticketInfoPanelLabel.setForeground(new Color(14, 165, 191, 248));
-        ticketInfoPanel.add(ticketInfoPanelLabel);
-
-        JLabel ticketInfoPanelContent = new JLabel();
-        ticketInfoPanelContent.setText("" +
-                "<html>" +
-                "<br>" +
-                "<br>" +
-                "<br>" +
-                "<br>" +
-                "</html>");
-        ticketInfoPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
-        ticketInfoPanelContent.setBounds(50, 80 , 400, 350);
-        ticketInfoPanelContent.setForeground(Color.white);
-        ticketInfoPanel.add(ticketInfoPanelContent);
 
 
         /*

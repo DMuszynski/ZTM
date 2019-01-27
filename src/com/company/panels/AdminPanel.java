@@ -2,6 +2,7 @@ package com.company.panels;
 
 import com.company.*;
 import com.company.Menu;
+import com.company.Window;
 
 import javax.swing.*;
 import java.awt.*;
@@ -29,7 +30,7 @@ public class AdminPanel extends JPanel{
 
         JLabel title = new JLabel("Panel Administratora");
         title.setFont(new Font("Arial", Font.BOLD, 40));
-        title.setBounds(WIDTH /2 - 240, 30 , 480, 100);
+        title.setBounds(Window.WIDTH/2 - 240, 30 , 480, 100);
         title.setForeground(Color.white);
         add(title);
 
@@ -85,7 +86,7 @@ public class AdminPanel extends JPanel{
 
         // MODIFY SCHEDULE
         JButton modifyScheduleButton = new JButton(new ImageIcon("images/modify_schedule_icon.png"));
-        modifyScheduleButton.setBounds((WIDTH /2-90) - 500, HEIGHT - 500, 180,180);
+        modifyScheduleButton.setBounds((Window.WIDTH /2-90) - 500, Window.HEIGHT - 500, 180,180);
         modifyScheduleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -106,7 +107,7 @@ public class AdminPanel extends JPanel{
 
         // MODIFY USER
         JButton modifyUserButton = new JButton(new ImageIcon("images/modify_user_icon.png"));
-        modifyUserButton.setBounds((WIDTH /2-90) - 300, HEIGHT - 500, 180,180);
+        modifyUserButton.setBounds((Window.WIDTH /2-90) - 300, Window.HEIGHT - 500, 180,180);
         modifyUserButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -127,7 +128,7 @@ public class AdminPanel extends JPanel{
 
         // ROUTE
         JButton routeButton = new JButton(new ImageIcon("images/route_icon.png"));
-        routeButton.setBounds((WIDTH /2-90) - 100, HEIGHT - 500, 180,180);
+        routeButton.setBounds((Window.WIDTH /2-90) - 100, Window.HEIGHT - 500, 180,180);
         routeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -148,7 +149,7 @@ public class AdminPanel extends JPanel{
 
         // BUS
         JButton busButton = new JButton(new ImageIcon("images/bus_icon.png"));
-        busButton.setBounds((WIDTH /2-90) + 100, HEIGHT - 500, 180,180);
+        busButton.setBounds((Window.WIDTH /2-90) + 100, Window.HEIGHT - 500, 180,180);
         busButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -169,7 +170,7 @@ public class AdminPanel extends JPanel{
 
         // CREATE CARD
         JButton createCardButton = new JButton(new ImageIcon("images/create_card_icon.png"));
-        createCardButton.setBounds((WIDTH /2-90) + 300, HEIGHT - 500, 180,180);
+        createCardButton.setBounds((Window.WIDTH /2-90) + 300, Window.HEIGHT - 500, 180,180);
         createCardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -190,12 +191,12 @@ public class AdminPanel extends JPanel{
 
         // WORK SCHEDULE
         JButton workScheduleButton = new JButton(new ImageIcon("images/work_schedule_icon.png"));
-        workScheduleButton.setBounds((WIDTH /2-90) + 500, HEIGHT - 500, 180,180);
+        workScheduleButton.setBounds((Window.WIDTH /2-90) + 500, Window.HEIGHT - 500, 180,180);
         workScheduleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new WorkSchedule());
                 Main.newWindow.revalidate();
             }
         });
@@ -211,12 +212,12 @@ public class AdminPanel extends JPanel{
 
         // TICKET
         JButton ticketButton = new JButton(new ImageIcon("images/ticket_icon.png"));
-        ticketButton.setBounds((WIDTH /2-90) - 500, HEIGHT - 250, 180,180);
+        ticketButton.setBounds((Window.WIDTH /2-90) - 500, Window.HEIGHT - 250, 180,180);
         ticketButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new TicketPanel());
                 Main.newWindow.revalidate();
             }
         });
@@ -232,12 +233,12 @@ public class AdminPanel extends JPanel{
 
         // CITY CARD
         JButton cityCardButton = new JButton(new ImageIcon("images/city_card_icon.png"));
-        cityCardButton.setBounds((WIDTH /2-90) - 300, HEIGHT - 250, 180,180);
+        cityCardButton.setBounds((Window.WIDTH /2-90) - 300, Window.HEIGHT - 250, 180,180);
         cityCardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new CityCard());
                 Main.newWindow.revalidate();
             }
         });
@@ -253,7 +254,7 @@ public class AdminPanel extends JPanel{
 
         // SEARCH CONNECTION
         JButton searchConnectionButton = new JButton(new ImageIcon("images/search_icon.png"));
-        searchConnectionButton.setBounds((WIDTH /2-90) - 100, HEIGHT - 250, 180,180);
+        searchConnectionButton.setBounds((Window.WIDTH /2-90) - 100, Window.HEIGHT - 250, 180,180);
         searchConnectionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -274,7 +275,7 @@ public class AdminPanel extends JPanel{
 
         // TIMETABLE
         JButton timetableButton = new JButton(new ImageIcon("images/timetable_icon.png"));
-        timetableButton.setBounds( (WIDTH /2-90) + 100, HEIGHT - 250, 180,180);
+        timetableButton.setBounds( (Window.WIDTH /2-90) + 100, Window.HEIGHT - 250, 180,180);
         timetableButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -295,7 +296,7 @@ public class AdminPanel extends JPanel{
 
         // CONTACT
         JButton informationButton = new JButton(new ImageIcon("images/info_icon.png"));
-        informationButton.setBounds((WIDTH /2-90) + 300, HEIGHT - 250, 180,180);
+        informationButton.setBounds((Window.WIDTH /2-90) + 300, Window.HEIGHT - 250, 180,180);
         informationButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -316,7 +317,7 @@ public class AdminPanel extends JPanel{
 
         // SETTINGS
         JButton settingsButton = new JButton(new ImageIcon("images/settings_icon.png"));
-        settingsButton.setBounds((WIDTH /2-90) + 500, HEIGHT - 250, 180,180);
+        settingsButton.setBounds((Window.WIDTH /2-90) + 500, Window.HEIGHT - 250, 180,180);
         settingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -338,7 +339,7 @@ public class AdminPanel extends JPanel{
         ///////////////////////////   LOGOUT    /////////////////////////////////////
 
         JButton logoutButton = new JButton("Wyloguj");
-        logoutButton.setBounds(WIDTH - 140, 40, 100, 30);
+        logoutButton.setBounds(Window.WIDTH - 140, 40, 100, 30);
         logoutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
