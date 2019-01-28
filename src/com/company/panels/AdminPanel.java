@@ -3,6 +3,7 @@ package com.company.panels;
 import com.company.*;
 import com.company.Menu;
 import com.company.Window;
+import com.company.managment.ManageVehicle;
 
 import javax.swing.*;
 import java.awt.*;
@@ -154,7 +155,7 @@ public class AdminPanel extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new ManageVehicle());
                 Main.newWindow.revalidate();
             }
         });

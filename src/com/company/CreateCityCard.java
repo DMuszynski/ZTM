@@ -27,7 +27,7 @@ public class CreateCityCard extends JPanel{
         add(title);
 
 
-        ///////////////////////////   CONTACT PANEL    /////////////////////////////////////
+        ///////////////////////////   MAIN PANEL    /////////////////////////////////////
 
         JPanel contactPanel = new JPanel();
         contactPanel.setSize(500,450);
@@ -66,6 +66,21 @@ public class CreateCityCard extends JPanel{
         add(normalHour);
         cardType.add(normalHour);
 
+
+
+        ///////////////////////////   BUTTONS    /////////////////////////////////////
+
+        //  CREATE CITY CARD
+        JButton createButton = new JButton("Utwórz Kartę");
+        createButton.setBounds(Window.WIDTH/2 - 80, Window.HEIGHT-200, 160, 30);
+        createButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(createButton);
 
         //BACK
         JButton backButton = new JButton("Powrót");

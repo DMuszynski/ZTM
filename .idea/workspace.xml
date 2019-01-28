@@ -2,38 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6130ce3f-34c7-4996-b91c-1efdbed0ecd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/AccountSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/AccountSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Information$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Information$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/RegisterCredentials$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/RegisterCredentials$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/RegisterCredentials.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AccountSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AccountSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RegisterCredentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SearchConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SearchConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TicketPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TicketPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CityCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/WorkSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WorkSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,32 +56,76 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="151" column="150" selection-start-line="151" selection-start-column="150" selection-end-line="151" selection-end-column="150" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/panels/AdminPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageRoute.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="13" selection-end-line="91" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageWorker.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,9 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cityCard</find>
-      <find>contact</find>
-      <find>route</find>
       <find>modifyUser</find>
       <find>bus</find>
       <find>workSchedule</find>
@@ -119,15 +158,16 @@
       <find>contactPanelContent</find>
       <find>backButton</find>
       <find>Wo</find>
-      <find>WIDTH</find>
-      <find>HEIGHT</find>
       <find>email</find>
       <find>accountButton</find>
       <find>Karta</find>
+      <find>kart</find>
+      <find>WIDTH</find>
+      <find>HEIGHT</find>
+      <find>ManageWorker</find>
+      <find>ManageRoute</find>
     </findStrings>
     <replaceStrings>
-      <replace>modifySchedule</replace>
-      <replace>createCard</replace>
       <replace>contactPanel</replace>
       <replace>ticketInfoPanel</replace>
       <replace>contactPanelLabel</replace>
@@ -153,9 +193,11 @@
       <replace>loadButton</replace>
       <replace>deactiveCardButton</replace>
       <replace>Window.Width</replace>
+      <replace>updateButton</replace>
       <replace>Window.WIDTH</replace>
       <replace>Window.HEIGHT</replace>
-      <replace>updateButton</replace>
+      <replace>ManageRoute</replace>
+      <replace>ManageSchedule</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,18 +218,23 @@
         <option value="$PROJECT_DIR$/src/com/company/ServicePanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/RegisterCredentials.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/UserPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/CityCard.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/WorkerPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/ServicePanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/WorkSchedule.java" />
-        <option value="$PROJECT_DIR$/src/com/company/CreateCityCard.java" />
         <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/company/SearchConnection.java" />
         <option value="$PROJECT_DIR$/src/com/company/Information.java" />
         <option value="$PROJECT_DIR$/src/com/company/AccountSettings.java" />
         <option value="$PROJECT_DIR$/src/com/company/TicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CityCard.java" />
+        <option value="$PROJECT_DIR$/src/com/company/WorkSchedule.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CreateCityCard.java" />
         <option value="$PROJECT_DIR$/src/com/company/Register.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ManageVehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" />
       </list>
     </option>
   </component>
@@ -224,6 +271,13 @@
               <item name="ZTM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="managment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZTM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZTM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="panels" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -237,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548684910535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548699914907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -315,7 +369,7 @@
       <workItem from="1548146583276" duration="198000" />
       <workItem from="1548530708816" duration="21562000" />
       <workItem from="1548673008125" duration="8618000" />
-      <workItem from="1548693717885" duration="1483000" />
+      <workItem from="1548693717885" duration="6015000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1540285700400</created>
@@ -328,13 +382,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89692000" />
+    <option name="totallyTimeSpent" value="94224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14887941" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14887941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24971624" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,17 +397,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.16789088" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.16789088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.21720882" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.32843652" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" weight="0.204617" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" visible="true" weight="0.204617" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49839914" weight="0.21274298" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49839914" weight="0.21196222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,36 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CityCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="60" lean-forward="true" selection-end-line="140" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/WorkSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -576,10 +600,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CityCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="86" column="70" lean-forward="true" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/WorkSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CreateCityCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        <state relative-caret-position="420">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -588,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="711">
           <caret line="151" column="150" selection-start-line="151" selection-start-column="150" selection-end-line="151" selection-end-column="150" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -598,8 +642,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/panels/AdminPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+        <state relative-caret-position="357">
+          <caret line="156" column="65" selection-start-line="156" selection-start-column="65" selection-end-line="156" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

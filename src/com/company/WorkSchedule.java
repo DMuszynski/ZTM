@@ -38,6 +38,12 @@ public class WorkSchedule extends JPanel{
         contactPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
         add(contactPanel);
 
+        JLabel weekLabel = new JLabel("Tydzień");
+        weekLabel.setBounds(contactPanel.getBounds().x - contactPanel.getBounds().width/2 - 70 ,contactPanel.getBounds().y - 160 , 140, 40);
+        weekLabel.setFont(new Font("Arial", Font.BOLD, 30));
+        weekLabel.setForeground(Color.white);
+        contactPanel.add(weekLabel);
+
         JLabel contactPanelContent = new JLabel();
         contactPanelContent.setText("" +
                 "<html> " +

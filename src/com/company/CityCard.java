@@ -73,12 +73,19 @@ public class CityCard extends JPanel{
         ticketInfoPanelLabel.setForeground(new Color(14, 165, 191, 248));
         ticketInfoPanel.add(ticketInfoPanelLabel);
 
+        JTextField loadAmmount = new JTextField("Kwota");
+        loadAmmount.setBounds(ticketInfoPanel.getBounds().x + ticketInfoPanel.getBounds().width/2 - 65, ticketInfoPanel.getBounds().y + ticketInfoPanel.getBounds().height/2 + 20, 130, 50);
+        add(loadAmmount);
+
         // LOAD
         JButton loadButton = new JButton("Doładuj");
         loadButton.setBounds(ticketInfoPanel.getBounds().x + ticketInfoPanel.getBounds().width/2 - 75, ticketInfoPanel.getBounds().y + ticketInfoPanel.getBounds().height/2 + 75, 150, 50);
         loadButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                int ammount = Integer.parseInt(loadAmmount.getText());
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
