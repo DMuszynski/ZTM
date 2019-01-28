@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6130ce3f-34c7-4996-b91c-1efdbed0ecd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CityCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/CreateCityCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/WorkSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CityCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/WorkSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WorkSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,47 +32,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageRoute.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="13" selection-end-line="91" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageWorker.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                <state relative-caret-position="407">
+                  <caret line="173" column="66" lean-forward="true" selection-start-line="173" selection-start-column="66" selection-end-line="173" selection-end-column="66" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -136,10 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>modifyUser</find>
-      <find>bus</find>
-      <find>workSchedule</find>
-      <find>card</find>
       <find>userDataPanel</find>
       <find>contactPanel</find>
       <find>title</find>
@@ -156,7 +89,6 @@
       <find>normalTicketLabel</find>
       <find>co</find>
       <find>contactPanelContent</find>
-      <find>backButton</find>
       <find>Wo</find>
       <find>email</find>
       <find>accountButton</find>
@@ -166,15 +98,13 @@
       <find>HEIGHT</find>
       <find>ManageWorker</find>
       <find>ManageRoute</find>
+      <find>backButton</find>
+      <find>creation</find>
+      <find>add</find>
+      <find>addVehicle</find>
+      <find>manage</find>
     </findStrings>
     <replaceStrings>
-      <replace>contactPanel</replace>
-      <replace>ticketInfoPanel</replace>
-      <replace>contactPanelLabel</replace>
-      <replace>ticketInfoPanelLabel</replace>
-      <replace>contactPanelContent</replace>
-      <replace>ticketInfoPanelContent</replace>
-      <replace>500</replace>
       <replace>credentialsDataLabel</replace>
       <replace>usernameField</replace>
       <replace>passwordField</replace>
@@ -198,6 +128,13 @@
       <replace>Window.HEIGHT</replace>
       <replace>ManageRoute</replace>
       <replace>ManageSchedule</replace>
+      <replace>addVehicle</replace>
+      <replace>managmentLabel</replace>
+      <replace>managment</replace>
+      <replace>add</replace>
+      <replace>manageVehi</replace>
+      <replace>find</replace>
+      <replace>create</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -231,10 +168,10 @@
         <option value="$PROJECT_DIR$/src/com/company/Register.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/ManageVehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" />
       </list>
     </option>
   </component>
@@ -291,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548699914907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548709033912" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -369,7 +306,7 @@
       <workItem from="1548146583276" duration="198000" />
       <workItem from="1548530708816" duration="21562000" />
       <workItem from="1548673008125" duration="8618000" />
-      <workItem from="1548693717885" duration="6015000" />
+      <workItem from="1548693717885" duration="11906000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1540285700400</created>
@@ -382,13 +319,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94224000" />
+    <option name="totallyTimeSpent" value="100115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14887941" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14887941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24971624" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843652" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.16789088" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.16789088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +342,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.21720882" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.32843652" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" visible="true" weight="0.204617" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" weight="0.204617" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49839914" weight="0.21196222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -560,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AccountSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -630,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="151" column="150" selection-start-line="151" selection-start-column="150" selection-end-line="151" selection-end-column="150" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/panels/AdminPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -660,13 +577,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -680,20 +604,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="40" selection-start-line="40" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        <state relative-caret-position="486">
+          <caret line="121" selection-start-line="121" selection-end-line="123" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="173" column="66" lean-forward="true" selection-start-line="173" selection-start-column="66" selection-end-line="173" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
