@@ -1,5 +1,7 @@
 package com.company;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -56,6 +58,22 @@ public class SearchConnection extends JPanel{
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String start = beginField.getText();
+                String end = endField.getText();
+
+                if(busCheckbox.isSelected()){
+                    boolean busCheck = true;
+                }else {
+                    boolean busCheck = false;
+                }
+
+                if(tramCheckbox.isSelected()){
+                    boolean tramCheck = true;
+                }else{
+                    boolean tramCheck = false;
+                }
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }

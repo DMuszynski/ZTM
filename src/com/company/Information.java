@@ -75,13 +75,7 @@ public class Information extends JPanel{
         ticketInfoPanel.add(ticketInfoPanelLabel);
 
         JLabel ticketInfoPanelContent = new JLabel();
-        ticketInfoPanelContent.setText("" +
-                "<html>" +
-                "<br>" +
-                "<br>" +
-                "<br>" +
-                "<br>" +
-                "</html>");
+        ticketInfoPanelContent.setText("<html></html>");
         ticketInfoPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
         ticketInfoPanelContent.setBounds(50, 80 , 400, 350);
         ticketInfoPanelContent.setForeground(Color.white);

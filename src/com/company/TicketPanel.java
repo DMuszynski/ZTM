@@ -39,16 +39,19 @@ public class TicketPanel extends JPanel{
 
         JRadioButton normalDisposable = new JRadioButton("Jednorazowy");
         normalDisposable.setBounds(Window.WIDTH/2 - 300, 300, 200,30);
+        normalDisposable.setActionCommand("normal disposable");
         add(normalDisposable);
         tickets.add(normalDisposable);
 
         JRadioButton normalHour = new JRadioButton("Jednogodzinny");
         normalHour.setBounds(Window.WIDTH/2 - 300, 350, 200,30);
+        normalHour.setActionCommand("normal hour");
         add(normalHour);
         tickets.add(normalHour);
 
         JRadioButton normalDaily = new JRadioButton("Jednodniowy");
         normalDaily.setBounds(Window.WIDTH/2 - 300, 400, 200,30);
+        normalDaily.setActionCommand("normal daily");
         add(normalDaily);
         tickets.add(normalDaily);
 
@@ -61,28 +64,35 @@ public class TicketPanel extends JPanel{
 
         JRadioButton reducedDisposable = new JRadioButton("Jednorazowy");
         reducedDisposable.setBounds(Window.WIDTH/2 + 100, 300, 200,30);
+        reducedDisposable.setActionCommand("reduced disposable");
         add(reducedDisposable);
         tickets.add(reducedDisposable);
 
         JRadioButton reducedHour = new JRadioButton("Jednogodzinny");
         reducedHour.setBounds(Window.WIDTH/2 + 100, 350, 200,30);
+        reducedHour.setActionCommand("reduced hour");
         add(reducedHour);
         tickets.add(reducedHour);
 
         JRadioButton reducedDaily = new JRadioButton("Jednodniowy");
         reducedDaily.setBounds(Window.WIDTH/2 + 100, 400, 200,30);
+        reducedDaily.setActionCommand("reduced daily");
         add(reducedDaily);
         tickets.add(reducedDaily);
 
 
         ///////////////////////////   ACTION BUTTONS    /////////////////////////////////////
 
-        //BACK
+        //  BUY TICKET
         JButton buyButton = new JButton("Kup Bilet");
         buyButton.setBounds(Window.WIDTH/2 - 75, Window.HEIGHT-250, 150, 50);
         buyButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String ticketType = tickets.getSelection().getActionCommand();
+                System.out.println(ticketType);
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
@@ -90,7 +100,7 @@ public class TicketPanel extends JPanel{
         add(buyButton);
 
 
-        //BACK
+        //  BACK BUTTON
         JButton backButton = new JButton("Powrót");
         backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-80, 100, 30);
         backButton.addActionListener(new ActionListener() {

@@ -106,19 +106,19 @@ public class AccountSettings extends JPanel{
 
 
 
-        // DANE LOGOWANIA
+        // DANE PŁATNOŚCI
         JLabel paymentDataLabel = new JLabel("Dane płatności");
         paymentDataLabel.setFont(new Font("Arial", Font.BOLD, 25));
         paymentDataLabel.setBounds(Window.WIDTH - 620, Window.HEIGHT/2 + 30 , 240, 30);
         paymentDataLabel.setForeground(Color.white);
         add(paymentDataLabel);
 
-        //  SURNAME FIELD
+        //  BANK NAME
         JTextField bankName = new JTextField("Bank", 30);
         bankName.setBounds(Window.WIDTH - 630, Window.HEIGHT/2 + 65, 260, 40);
         add(bankName);
 
-        //  BIRTH FIELD
+        //  ACCOUNT NUMBER
         JTextField accountNumber = new JTextField("Numer konta");
         accountNumber.setBounds(Window.WIDTH - 630, Window.HEIGHT/2 + 110, 260, 40);
         add(accountNumber);
@@ -126,6 +126,18 @@ public class AccountSettings extends JPanel{
 
 
         ///////////////////////////   ACTION BUTTONS    /////////////////////////////////////
+
+        //DELETE ACCOUNT
+        JButton updateButton = new JButton("Zaktualizuj");
+        updateButton.setBounds(Window.WIDTH/2 - 70, Window.HEIGHT-160, 140, 30);
+        updateButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(updateButton);
 
         //DELETE ACCOUNT
         JButton accountButton = new JButton("Usuń konto");

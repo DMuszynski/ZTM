@@ -175,7 +175,7 @@ public class AdminPanel extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new CreateCityCard());
                 Main.newWindow.revalidate();
             }
         });
@@ -244,7 +244,7 @@ public class AdminPanel extends JPanel{
         });
         add(cityCardButton);
         JLabel cityCardLabel = new JLabel();
-        cityCardLabel.setText("<html><center>Doładuj kartę miejską</center></html>");
+        cityCardLabel.setText("<html><center>Zarządzaj kartą miejską</center></html>");
         cityCardLabel.setFont(new Font("Arial", Font.BOLD, 18));
         cityCardLabel.setBounds(cityCardButton.getBounds().x, cityCardButton.getBounds().y + 185, 180, 50);
         cityCardLabel.setForeground(Color.white);

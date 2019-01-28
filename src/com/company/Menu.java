@@ -35,13 +35,13 @@ public class Menu extends JPanel{
         ///////////////////////////   LOGIN    /////////////////////////////////////
 
         //  MAIL TEXT FIELD
-        JTextField emailField = new JTextField("Login", 30);
-        emailField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2-150, 260, 40);
-        add(emailField);
+        JTextField loginField = new JTextField("Login", 30);
+        loginField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2-150, 260, 40);
+        add(loginField);
 
 
         //  PASSWORD FIELD
-        JPasswordField passwordField = new JPasswordField("Hasło", 30);
+        JTextField passwordField = new JPasswordField("Hasło", 30);
         passwordField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2-110, 260, 40);
         add(passwordField);
 
@@ -55,6 +55,10 @@ public class Menu extends JPanel{
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String username = loginField.getText();
+                String password = passwordField.getText();
+
                 Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
