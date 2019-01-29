@@ -4,7 +4,9 @@ import com.company.*;
 import com.company.Menu;
 import com.company.Window;
 import com.company.managment.ManageRoute;
+import com.company.managment.ManageSchedule;
 import com.company.managment.ManageVehicle;
+import com.company.managment.ManageWorker;
 
 import javax.swing.*;
 import java.awt.*;
@@ -93,7 +95,7 @@ public class AdminPanel extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new ManageSchedule());
                 Main.newWindow.revalidate();
             }
         });
@@ -114,7 +116,7 @@ public class AdminPanel extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 Main.newWindow.setVisible(false);
-                Main.newWindow.setContentPane(new SearchConnection());
+                Main.newWindow.setContentPane(new ManageWorker());
                 Main.newWindow.revalidate();
             }
         });

@@ -14,6 +14,7 @@ public class ManageVehicle extends JPanel{
     private Image background;
 
     public ManageVehicle(){
+
         Main.newWindow.setVisible(true);
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
@@ -23,7 +24,6 @@ public class ManageVehicle extends JPanel{
 
 
         ///////////////////////////   TITLE    /////////////////////////////////////
-
         JLabel title = new JLabel("Zarządzanie pojazdami");
         title.setFont(new Font("Arial", Font.BOLD, 40));
         title.setBounds(Window.WIDTH /2 - 260, 30 , 520, 100);
@@ -31,10 +31,12 @@ public class ManageVehicle extends JPanel{
         add(title);
 
 
-        ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
 
+
+
+        ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
         JPanel managment = new JPanel();
-        managment.setSize(400,500);
+        managment.setSize(400,520);
         managment.setLocation(Window.WIDTH /2 - 500, 150);
         managment.setBackground(new Color(0,0,0,30));
         add(managment);
@@ -45,7 +47,7 @@ public class ManageVehicle extends JPanel{
         managmentLabel.setForeground(Color.white);
         managment.add(managmentLabel);
 
-        // ID POJAZDU
+        // ID VEHICLE
         JTextField idVehicle = new JTextField("ID");
         idVehicle.setBounds(managment.getBounds().x + 80,managment.getBounds().y  + 60,80,40);
         add(idVehicle);
@@ -103,6 +105,8 @@ public class ManageVehicle extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
+                String vehicleID = idVehicle.getText();
+
                 String brand = manageBrand.getText();
                 String model = manageModel.getText();
                 String registerNumber = manageRegistration.getText();
@@ -116,10 +120,28 @@ public class ManageVehicle extends JPanel{
         });
         add(manageVehicle);
 
-        ///////////////////////////   CREATION PANEL    /////////////////////////////////////
+        // DELETE VEHICLE
+        JButton deleteVehicle = new JButton("Usuń pojazd");
+        deleteVehicle.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 460,180,40);
+        deleteVehicle.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
 
+                String ID = idVehicle.getText();
+
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(deleteVehicle);
+
+
+
+
+
+        ///////////////////////////   CREATION PANEL    /////////////////////////////////////
         JPanel creation = new JPanel();
-        creation.setSize(400,500);
+        creation.setSize(400,520);
         creation.setLocation(Window.WIDTH /2 + 100, 150);
         creation.setBackground(new Color(0,0,0,30));
         add(creation);
@@ -167,6 +189,8 @@ public class ManageVehicle extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
+                String veicleId =idVehicle.getText();
+
                 String brand = createBrand.getText();
                 String model = createModel.getText();
                 String registerNumber = createRegistration.getText();
@@ -182,8 +206,6 @@ public class ManageVehicle extends JPanel{
 
 
         ///////////////////////////   BACK BUTTON    /////////////////////////////////////
-
-        //BACK
         JButton backButton = new JButton("Powrót");
         backButton.setBounds(Window.WIDTH /2 - 50, Window.HEIGHT -80, 100, 30);
         backButton.addActionListener(new ActionListener() {

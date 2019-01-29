@@ -14,6 +14,7 @@ public class ManageRoute extends JPanel{
     private Image background;
 
     public ManageRoute(){
+
         Main.newWindow.setVisible(true);
         setPreferredSize(new Dimension(Window.WIDTH, Window.HEIGHT));
         setFocusable(true);
@@ -23,7 +24,6 @@ public class ManageRoute extends JPanel{
 
 
         ///////////////////////////   TITLE    /////////////////////////////////////
-
         JLabel title = new JLabel("Zarządzanie liniami");
         title.setFont(new Font("Arial", Font.BOLD, 40));
         title.setBounds(Window.WIDTH /2 - 250, 30 , 500, 100);
@@ -31,10 +31,12 @@ public class ManageRoute extends JPanel{
         add(title);
 
 
-        ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
 
+
+
+        ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
         JPanel managment = new JPanel();
-        managment.setSize(400,500);
+        managment.setSize(400,520);
         managment.setLocation(Window.WIDTH /2 - 500, 150);
         managment.setBackground(new Color(0,0,0,30));
         add(managment);
@@ -45,81 +47,101 @@ public class ManageRoute extends JPanel{
         managmentLabel.setForeground(Color.white);
         managment.add(managmentLabel);
 
-        // ID POJAZDU
-        JTextField idVehicle = new JTextField("Numer Linii");
-        idVehicle.setBounds(managment.getBounds().x + 80,managment.getBounds().y  + 60,80,40);
-        add(idVehicle);
+        // ID ROUTE
+        JTextField idRoute = new JTextField("Numer Linii");
+        idRoute.setBounds(managment.getBounds().x + 80,managment.getBounds().y  + 60,80,40);
+        add(idRoute);
 
-        // FIND VEHICLE
-        JButton findVehicle = new JButton("Znajdź linię");
-        findVehicle.setBounds(managment.getBounds().x + 170,managment.getBounds().y + 60,180,40);
-        findVehicle.addActionListener(new ActionListener() {
+        // FIND ROUTE
+        JButton findRoute = new JButton("Znajdź linię");
+        findRoute.setBounds(managment.getBounds().x + 170,managment.getBounds().y + 60,180,40);
+        findRoute.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
-                String id = idVehicle.getText();
+                String id = idRoute.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
         });
-        add(findVehicle);
+        add(findRoute);
 
 
-        //  MARKA
+        //  POCZĄTKOWY PRZYSTANEK
         JTextField manageStart = new JTextField("Początkowy");
         manageStart.setBounds(managment.getBounds().x + 140,managment.getBounds().y  + 120,120,40);
         add(manageStart);
 
-        //  MODEL
+        //  PIERWSZY PRZYSTANEK
         JTextField manageFirst = new JTextField("#1");
         manageFirst.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 170,120,40);
         add(manageFirst);
 
-        //  NUMER REJESTRACYJNY
+        //  DRUGI PRZYSTANEK
         JTextField manageSecond = new JTextField("#2");
         manageSecond.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 220,120,40);
         add(manageSecond);
 
-        //  NUMER BOCZNY
+        //  TRZECI PRZYSTANEK
         JTextField manageThird = new JTextField("#3");
         manageThird.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 270,120,40);
         add(manageThird);
 
-        //  ROK PRODUKCJI
+        //  CZWARTY PRZYSTANEK
         JTextField manageFourth = new JTextField("#4");
         manageFourth.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 320,120,40);
         add(manageFourth);
 
-        //  OSTATNI PRZEGLĄD
+        //  OSTATNI PRZYSTANEK
         JTextField manageEnd = new JTextField("Końcowy");
         manageEnd.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 370,120,40);
         add(manageEnd);
 
-        // MANAGE VEHICLE
-        JButton manageVehicle = new JButton("Modyfikuj linię");
-        manageVehicle.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 420,180,40);
-        manageVehicle.addActionListener(new ActionListener() {
+        // MANAGE ROUTE
+        JButton manageRoute = new JButton("Modyfikuj linię");
+        manageRoute.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 420,180,40);
+        manageRoute.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
-                String brand = manageStart.getText();
-                String model = manageFirst.getText();
-                String registerNumber = manageSecond.getText();
-                String sideNumber = manageThird.getText();
-                String productionYer = manageFourth.getText();
-                String overwiew = manageEnd.getText();
+                String ID = idRoute.getText();
+
+                String start = manageStart.getText();
+                String first = manageFirst.getText();
+                String second = manageSecond.getText();
+                String third = manageThird.getText();
+                String fourth = manageFourth.getText();
+                String end = manageEnd.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
         });
-        add(manageVehicle);
+        add(manageRoute);
+
+        // DELETE ROUTE
+        JButton deleteRoute = new JButton("Usuń linię");
+        deleteRoute.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 460,180,40);
+        deleteRoute.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+
+                String ID = idRoute.getText();
+
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(deleteRoute);
+
+
+
+
 
         ///////////////////////////   CREATION PANEL    /////////////////////////////////////
-
         JPanel creation = new JPanel();
-        creation.setSize(400,500);
+        creation.setSize(400,520);
         creation.setLocation(Window.WIDTH /2 + 100, 150);
         creation.setBackground(new Color(0,0,0,30));
         add(creation);
@@ -130,55 +152,62 @@ public class ManageRoute extends JPanel{
         creationLabel.setForeground(Color.white);
         creation.add(creationLabel);
 
-        //  MARKA
+        //  NUMER LINII
+        JTextField numberRoute = new JTextField("NUMER LINII");
+        numberRoute.setBounds(creation.getBounds().x + 150,creation.getBounds().y  + 50,100,40);
+        add(numberRoute);
+
+        //  POCZĄTKOWY PRZYSTANEK
         JTextField createStart = new JTextField("Początkowy");
-        createStart.setBounds(creation.getBounds().x + 140,creation.getBounds().y  + 70,120,40);
+        createStart.setBounds(creation.getBounds().x + 140,creation.getBounds().y  + 100,120,40);
         add(createStart);
 
-        //  MODEL
+        //  DRUGI PRZYSTANEK
         JTextField createFirst = new JTextField("#1");
-        createFirst.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 120,120,40);
+        createFirst.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 150,120,40);
         add(createFirst);
 
-        //  NUMER REJESTRACYJNY
+        //  TRZECI PRZYSTANEK
         JTextField createSecond = new JTextField("#2");
-        createSecond.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 170,120,40);
+        createSecond.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 200,120,40);
         add(createSecond);
 
-        //  NUMER BOCZNY
+        //  CZWARTY PRZYSTANEK
         JTextField createThird = new JTextField("#3");
-        createThird.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 220,120,40);
+        createThird.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 250,120,40);
         add(createThird);
 
-        //  ROK PRODUKCJI
+        //  PIĄTY PRZYSTANEK
         JTextField createFourth = new JTextField("#4");
-        createFourth.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 270,120,40);
+        createFourth.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 300,120,40);
         add(createFourth);
 
-        //  OSTATNI PRZEGLĄD
+        //  OSTATNI PRZYSTANEK
         JTextField createEnd = new JTextField("Końcowy");
-        createEnd.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 320,120,40);
+        createEnd.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 350,120,40);
         add(createEnd);
 
-        // ADD VEHICLE
-        JButton addVehicle = new JButton("Dodaj linię");
-        addVehicle.setBounds(creation.getBounds().x + 110,creation.getBounds().y + 400,180,40);
-        addVehicle.addActionListener(new ActionListener() {
+        // ADD ROUTE
+        JButton addRoute = new JButton("Dodaj linię");
+        addRoute.setBounds(creation.getBounds().x + 110,creation.getBounds().y + 400,180,40);
+        addRoute.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
-                String brand = createStart.getText();
-                String model = createFirst.getText();
-                String registerNumber = createSecond.getText();
-                String sideNumber = createThird.getText();
-                String productionYer = createFourth.getText();
-                String overwiew = createEnd.getText();
+                String routeNumber = numberRoute.getText();
+
+                String start = createStart.getText();
+                String first = createFirst.getText();
+                String second = createSecond.getText();
+                String third = createThird.getText();
+                String fourth = createFourth.getText();
+                String end = createEnd.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
         });
-        add(addVehicle);
+        add(addRoute);
 
         ///////////////////////////   BACK BUTTON    /////////////////////////////////////
 
