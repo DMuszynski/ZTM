@@ -2,41 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6130ce3f-34c7-4996-b91c-1efdbed0ecd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageWorkDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/managment/ManageWorkerSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CheckTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageRoute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageVehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/panels/AdminPanel$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CreateCityCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/panels/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/SearchConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/TicketPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/Timetable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageStop$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageStop$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM/com/company/managment/ManageStop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SearchConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SearchConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TicketPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TicketPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Timetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/managment/ManageStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/managment/ManageStop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +40,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/CreateCityCard.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+            <state relative-caret-position="317">
+              <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/TicketPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/CheckTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,15 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ManageLines</find>
-      <find>linii</find>
-      <find>Route</find>
-      <find>Menu</find>
-      <find>ADMIN</find>
-      <find>BACK</find>
-      <find>AdminPanel</find>
-      <find>positionButtons</find>
-      <find>positionButtonsCreate</find>
       <find>service</find>
       <find>manageDaysOff</find>
       <find>createDaysOff</find>
@@ -114,17 +108,17 @@
       <find>manageStart</find>
       <find>worker</find>
       <find>500</find>
+      <find>contactPanelContent</find>
+      <find>managmentPanel</find>
+      <find>managmentPanelContent</find>
+      <find>stopPanel</find>
+      <find>creation</find>
+      <find>managment</find>
+      <find>ticketInfoPanel</find>
+      <find>ticketInfoPanelContent</find>
+      <find>Information</find>
     </findStrings>
     <replaceStrings>
-      <replace>lineNumber</replace>
-      <replace>lineButtons</replace>
-      <replace>lineButtonsCreate</replace>
-      <replace>ManageTrack</replace>
-      <replace>trasami</replace>
-      <replace>trasy</replace>
-      <replace>Track</replace>
-      <replace>AdminPanel</replace>
-      <replace>typeButtons</replace>
       <replace>typeButtonsCreate</replace>
       <replace>busRadio</replace>
       <replace>bus</replace>
@@ -146,6 +140,15 @@
       <replace>ManageWorkerSchedule</replace>
       <replace>Schedule</replace>
       <replace>manageDaysOff</replace>
+      <replace>managmentPanel</replace>
+      <replace>managmentPanelContent</replace>
+      <replace>stopPanelContent</replace>
+      <replace>stop</replace>
+      <replace>stopPanel</replace>
+      <replace>routePanel</replace>
+      <replace>searchResultPanel</replace>
+      <replace>searchResultPanelContent</replace>
+      <replace>CheckTicket</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Window.java" />
         <option value="$PROJECT_DIR$/src/com/company/Tarrif.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Timetable.java" />
         <option value="$PROJECT_DIR$/src/com/company/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/company/Login.java" />
         <option value="$PROJECT_DIR$/src/com/company/UserPanel.java" />
@@ -168,10 +170,8 @@
         <option value="$PROJECT_DIR$/src/com/company/panels/UserPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/WorkerPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/panels/ServicePanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SearchConnection.java" />
         <option value="$PROJECT_DIR$/src/com/company/Information.java" />
         <option value="$PROJECT_DIR$/src/com/company/AccountSettings.java" />
-        <option value="$PROJECT_DIR$/src/com/company/TicketPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/CityCard.java" />
         <option value="$PROJECT_DIR$/src/com/company/WorkSchedule.java" />
         <option value="$PROJECT_DIR$/src/com/company/Register.java" />
@@ -181,13 +181,17 @@
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageTrack.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageLines.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/managment/ManageStop.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageRoute.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageWorkDay.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageWorker.java" />
         <option value="$PROJECT_DIR$/src/com/company/managment/ManageWorkerSchedule.java" />
         <option value="$PROJECT_DIR$/src/com/company/CreateCityCard.java" />
+        <option value="$PROJECT_DIR$/src/com/company/managment/ManageStop.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Timetable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SearchConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CheckTicket.java" />
       </list>
     </option>
   </component>
@@ -222,6 +226,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ZTM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZTM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="managment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZTM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZTM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="panels" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549393365620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549395728954" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -311,7 +329,7 @@
       <workItem from="1548673008125" duration="8618000" />
       <workItem from="1548693717885" duration="18528000" />
       <workItem from="1548789576767" duration="5584000" />
-      <workItem from="1549376143671" duration="16596000" />
+      <workItem from="1549376143671" duration="18958000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1540285700400</created>
@@ -324,13 +342,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128917000" />
+    <option name="totallyTimeSpent" value="131279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15208112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21291356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24971624" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +367,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.32843652" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" weight="0.204617" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49839914" weight="0.21196222" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49839914" weight="0.4921301" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,16 +430,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/background.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/javax/swing/ImageIcon.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,31 +517,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="44" selection-start-line="44" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diagram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/city_card_icon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="30" selection-start-line="30" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageStops.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,26 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageLines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="130" selection-start-line="130" selection-end-line="131" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageStop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="183" column="89" selection-start-line="183" selection-start-column="89" selection-end-line="183" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageVehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -622,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -646,16 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-339">
           <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TicketPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="92" column="78" lean-forward="true" selection-start-line="92" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -694,8 +642,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CreateCityCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/managment/ManageLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="50" selection-start-line="50" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Timetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="95" column="87" lean-forward="true" selection-start-line="95" selection-start-column="87" selection-end-line="95" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SearchConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="63" column="36" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TicketPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="111" column="44" lean-forward="true" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CheckTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

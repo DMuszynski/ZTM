@@ -219,6 +219,10 @@ public class ManageStop extends JPanel{
         });
         add(addStop);
 
+
+
+
+
         ///////////////////////////   BACK BUTTON    /////////////////////////////////////
 
         //BACK

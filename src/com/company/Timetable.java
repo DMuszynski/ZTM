@@ -15,6 +15,108 @@ public class Timetable extends JPanel{
         setLayout(null);
         loadBackground();
 
+
+
+
+
+        ///////////////////////////   TITLE    /////////////////////////////////////
+
+        JLabel title = new JLabel("Rozkład Jazdy");
+        title.setFont(new Font("Arial", Font.BOLD, 40));
+        title.setBounds(Window.WIDTH/2 - 175, 30 , 350, 100);
+        title.setForeground(Color.white);
+        add(title);
+
+
+
+
+
+        ///////////////////////////   stopPanel PANEL    /////////////////////////////////////
+        JPanel stopPanel = new JPanel();
+        stopPanel.setSize(400,520);
+        stopPanel.setLocation(Window.WIDTH /2 - 500, 150);
+        stopPanel.setBackground(new Color(0,0,0,30));
+        add(stopPanel);
+
+        JLabel stopPanelLabel = new JLabel("Wybierz przystanek");
+        stopPanelLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        stopPanelLabel.setBounds(stopPanel.getBounds().x + 80, 30 , 240, 100);
+        stopPanelLabel.setForeground(Color.white);
+        stopPanel.add(stopPanelLabel);
+
+        // ID STOP
+        JTextField idStop = new JTextField("Nazwa przystanku");
+        idStop.setBounds(stopPanel.getBounds().x + 40,stopPanel.getBounds().y  + 60,140,40);
+        add(idStop);
+
+        // FIND STOP
+        JButton findStop = new JButton("Znajdź przystanek");
+        findStop.setBounds(stopPanel.getBounds().x + 170,stopPanel.getBounds().y + 60,180,40);
+        findStop.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+
+                String id = idStop.getText();
+
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(findStop);
+
+        JLabel stopPanelContent = new JLabel();
+        stopPanelContent.setText("" +
+                "<html>" +
+                "</html>");
+        stopPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
+        stopPanelContent.setBounds(50, 80 , 400, 350);
+        stopPanelContent.setForeground(Color.white);
+        stopPanel.add(stopPanelContent);
+
+
+
+
+
+
+        ///////////////////////////   CREATION PANEL    /////////////////////////////////////
+        JPanel routePanel = new JPanel();
+        routePanel.setSize(400,520);
+        routePanel.setLocation(Window.WIDTH /2 + 100, 150);
+        routePanel.setBackground(new Color(0,0,0,30));
+        add(routePanel);
+
+        JLabel routePanelLabel = new JLabel("Wybierz Linię");
+        routePanelLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        routePanelLabel.setBounds(routePanel.getBounds().x + 80, 30 , 240, 100);
+        routePanelLabel.setForeground(Color.white);
+        routePanel.add(routePanelLabel);
+
+        // ID ROUTE
+        JTextField idRoute = new JTextField("Nazwa linii");
+        idRoute.setBounds(routePanel.getBounds().x + 50,routePanel.getBounds().y  + 60,140,40);
+        add(idRoute);
+
+        // FIND ROUTE
+        JButton findRoute = new JButton("Znajdź linię");
+        findRoute.setBounds(routePanel.getBounds().x + 170,routePanel.getBounds().y + 60,180,40);
+        findRoute.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+
+                String id = idRoute.getText();
+
+                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(findRoute);
+
+        
+
+
+
+
+
         /*
             ACTION BUTTONS
         */

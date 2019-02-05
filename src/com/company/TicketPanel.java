@@ -100,6 +100,22 @@ public class TicketPanel extends JPanel{
         add(buyButton);
 
 
+
+        //  BUY TICKET
+        JButton checkButton = new JButton("Sprawdź zakupione bilety");
+        checkButton.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT-180, 260, 50);
+        checkButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+
+                Main.newWindow.setContentPane(new CheckTicket());
+                Main.newWindow.revalidate();
+            }
+        });
+        add(checkButton);
+
+
+
         //  BACK BUTTON
         JButton backButton = new JButton("Powrót");
         backButton.setBounds(Window.WIDTH/2 - 50, Window.HEIGHT-80, 100, 30);

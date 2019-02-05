@@ -81,6 +81,26 @@ public class SearchConnection extends JPanel{
         add(searchButton);
 
 
+
+        //  SEARCH RESULT FIELD
+        JPanel searchResultPanel = new JPanel();
+        searchResultPanel.setSize(750,500);
+        searchResultPanel.setLocation(Window.WIDTH-800, 150);
+        searchResultPanel.setLayout(null);
+        searchResultPanel.setBackground(new Color(0,0,0,30));
+        searchResultPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));;
+        add(searchResultPanel);
+
+        //  CONTENT
+        JLabel searchResultPanelContent = new JLabel();
+        searchResultPanelContent.setText("<html>aaa</html>");
+        searchResultPanelContent.setFont(new Font("Arial", Font.BOLD, 22));
+        searchResultPanelContent.setBounds(50, 50 , 700, 450);
+        searchResultPanelContent.setForeground(Color.white);
+        searchResultPanel.add(searchResultPanelContent);
+
+
+
         ///////////////////////////   INPUT FIELDS    /////////////////////////////////////
 
         //BACK
