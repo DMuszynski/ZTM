@@ -3,6 +3,7 @@ package com.company.managment;
 import com.company.Window;
 import com.company.Main;
 import com.company.Menu;
+import com.company.panels.AdminPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -37,7 +38,7 @@ public class ManageVehicle extends JPanel{
         ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
         JPanel managment = new JPanel();
         managment.setSize(400,520);
-        managment.setLocation(Window.WIDTH /2 - 500, 150);
+        managment.setLocation(Window.WIDTH /2 - 650, 150);
         managment.setBackground(new Color(0,0,0,30));
         add(managment);
 
@@ -68,20 +69,26 @@ public class ManageVehicle extends JPanel{
         add(findVehicle);
 
 
-        //  MARKA
-        JTextField manageBrand = new JTextField("Marka");
-        manageBrand.setBounds(managment.getBounds().x + 140,managment.getBounds().y  + 120,120,40);
-        add(manageBrand);
+        //  TYPE
+        ButtonGroup typeButtons = new ButtonGroup();
+
+        JRadioButton busRadio = new JRadioButton("Autobus");
+        busRadio.setBounds(managment.getBounds().x + 100, managment.getBounds().y + 160, 100,30);
+        busRadio.setActionCommand("autobus");
+        add(busRadio);
+        typeButtons.add(busRadio);
+
+        JRadioButton tramRadio = new JRadioButton("Tramwaj");
+        tramRadio.setBounds(managment.getBounds().x + 200, managment.getBounds().y + 160, 100,30);
+        tramRadio.setActionCommand("tramwaj");
+        add(tramRadio);
+        typeButtons.add(tramRadio);
+
 
         //  MODEL
         JTextField manageModel = new JTextField("Model");
-        manageModel.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 170,120,40);
+        manageModel.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 220,120,40);
         add(manageModel);
-
-        //  NUMER REJESTRACYJNY
-        JTextField manageRegistration = new JTextField("Numer rejestracyjny");
-        manageRegistration.setBounds(managment.getBounds().x + 130,managment.getBounds().y + 220,140,40);
-        add(manageRegistration);
 
         //  NUMER BOCZNY
         JTextField manageSideNumber = new JTextField("Numer boczny");
@@ -93,10 +100,6 @@ public class ManageVehicle extends JPanel{
         manageProduction.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 320,120,40);
         add(manageProduction);
 
-        //  OSTATNI PRZEGLĄD
-        JTextField manageOverwiew = new JTextField("Ostatni przegląd");
-        manageOverwiew.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 370,120,40);
-        add(manageOverwiew);
 
         // MANAGE VEHICLE
         JButton manageVehicle = new JButton("Modyfikuj pojazd");
@@ -107,12 +110,11 @@ public class ManageVehicle extends JPanel{
 
                 String vehicleID = idVehicle.getText();
 
-                String brand = manageBrand.getText();
+                String position = typeButtons.getSelection().getActionCommand();
+
                 String model = manageModel.getText();
-                String registerNumber = manageRegistration.getText();
                 String sideNumber = manageSideNumber.getText();
                 String productionYer = manageProduction.getText();
-                String overwiew = manageOverwiew.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
@@ -123,6 +125,8 @@ public class ManageVehicle extends JPanel{
         // DELETE VEHICLE
         JButton deleteVehicle = new JButton("Usuń pojazd");
         deleteVehicle.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 460,180,40);
+        deleteVehicle.setBackground(Color.RED);
+        deleteVehicle.setOpaque(true);
         deleteVehicle.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -139,10 +143,37 @@ public class ManageVehicle extends JPanel{
 
 
 
+        JPanel infoPanel = new JPanel();
+        infoPanel.setSize(400,520);
+        infoPanel.setLocation(Window.WIDTH/2 - 200, 150);
+        infoPanel.setLayout(null);
+        infoPanel.setBackground(new Color(0,0,0,30));
+        infoPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
+        add(infoPanel);
+
+        JLabel infoPanelLabel = new JLabel("Pojazdy");
+        infoPanelLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        infoPanelLabel.setBounds(infoPanel.getBounds().width/2-80, 20 , 250, 50);
+        infoPanelLabel.setForeground(new Color(14, 165, 191, 248));
+        infoPanel.add(infoPanelLabel);
+
+        JLabel infoPanelContent = new JLabel();
+        infoPanelContent.setText("" +
+                "<html>" +
+                "</html>");
+        infoPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
+        infoPanelContent.setBounds(50, 80 , 400, 350);
+        infoPanelContent.setForeground(Color.white);
+        infoPanel.add(infoPanelContent);
+
+
+
+
+
         ///////////////////////////   CREATION PANEL    /////////////////////////////////////
         JPanel creation = new JPanel();
         creation.setSize(400,520);
-        creation.setLocation(Window.WIDTH /2 + 100, 150);
+        creation.setLocation(Window.WIDTH /2 + 250, 150);
         creation.setBackground(new Color(0,0,0,30));
         add(creation);
 
@@ -152,20 +183,25 @@ public class ManageVehicle extends JPanel{
         creationLabel.setForeground(Color.white);
         creation.add(creationLabel);
 
-        //  MARKA
-        JTextField createBrand = new JTextField("Marka");
-        createBrand.setBounds(creation.getBounds().x + 140,creation.getBounds().y  + 70,120,40);
-        add(createBrand);
+        // TYPE
+        ButtonGroup typeButtonsCreate = new ButtonGroup();
+
+        JRadioButton busRadioCreate = new JRadioButton("Autobus");
+        busRadioCreate.setBounds(creation.getBounds().x + 100, creation.getBounds().y + 120, 100,30);
+        busRadioCreate.setActionCommand("autobus");
+        add(busRadioCreate);
+        typeButtonsCreate.add(busRadioCreate);
+
+        JRadioButton tramRadioCreate = new JRadioButton("Tramwaj");
+        tramRadioCreate.setBounds(creation.getBounds().x + 200, creation.getBounds().y + 120, 100,30);
+        tramRadioCreate.setActionCommand("tramwaj");
+        add(tramRadioCreate);
+        typeButtonsCreate.add(tramRadioCreate);
 
         //  MODEL
         JTextField createModel = new JTextField("Model");
-        createModel.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 120,120,40);
+        createModel.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 170,120,40);
         add(createModel);
-
-        //  NUMER REJESTRACYJNY
-        JTextField createRegistration = new JTextField("Numer rejestracyjny");
-        createRegistration.setBounds(creation.getBounds().x + 130,creation.getBounds().y + 170,140,40);
-        add(createRegistration);
 
         //  NUMER BOCZNY
         JTextField createSideNumber = new JTextField("Numer boczny");
@@ -177,11 +213,6 @@ public class ManageVehicle extends JPanel{
         createProduction.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 270,120,40);
         add(createProduction);
 
-        //  OSTATNI PRZEGLĄD
-        JTextField createOverwiew = new JTextField("Ostatni przegląd");
-        createOverwiew.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 320,120,40);
-        add(createOverwiew);
-
         // ADD VEHICLE
         JButton addVehicle = new JButton("Dodaj pojazd");
         addVehicle.setBounds(creation.getBounds().x + 110,creation.getBounds().y + 400,180,40);
@@ -191,12 +222,11 @@ public class ManageVehicle extends JPanel{
 
                 String veicleId =idVehicle.getText();
 
-                String brand = createBrand.getText();
+                String position = typeButtonsCreate.getSelection().getActionCommand();
+
                 String model = createModel.getText();
-                String registerNumber = createRegistration.getText();
                 String sideNumber = createSideNumber.getText();
                 String productionYer = createProduction.getText();
-                String overwiew = createOverwiew.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
@@ -211,7 +241,7 @@ public class ManageVehicle extends JPanel{
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });

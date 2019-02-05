@@ -54,17 +54,16 @@ public class CreateCityCard extends JPanel{
         surnameField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 75, 260, 40);
         add(surnameField);
 
-        ButtonGroup cardType = new ButtonGroup();
+        //  PESEL FIELD
+        JTextField peselField = new JTextField("PESEL", 30);
+        peselField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 - 30, 260, 40);
+        add(peselField);
 
-        JRadioButton normalDisposable = new JRadioButton("Normalny");
-        normalDisposable.setBounds(Window.WIDTH/2 - 100, 370, 100,30);
-        add(normalDisposable);
-        cardType.add(normalDisposable);
+        //  PHONE FIELD
+        JTextField phoneField = new JTextField("Telefon", 30);
+        phoneField.setBounds(Window.WIDTH/2 - 130, Window.HEIGHT/2 + 15, 260, 40);
+        add(phoneField);
 
-        JRadioButton normalHour = new JRadioButton("Zniżkowy");
-        normalHour.setBounds(Window.WIDTH/2, 370, 100,30);
-        add(normalHour);
-        cardType.add(normalHour);
 
 
 
@@ -76,6 +75,12 @@ public class CreateCityCard extends JPanel{
         createButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String name = nameField.getText();
+                String surname = surnameField.getText();
+                String pesel = peselField.getText();
+                String phone = phoneField.getText();
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }

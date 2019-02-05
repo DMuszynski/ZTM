@@ -109,7 +109,7 @@ public class AdminPanel extends JPanel{
 
 
 
-        // MODIFY USER
+        // MANAGE USER
         JButton modifyUserButton = new JButton(new ImageIcon("images/modify_user_icon.png"));
         modifyUserButton.setBounds((Window.WIDTH /2-90) - 300, Window.HEIGHT - 500, 180,180);
         modifyUserButton.addActionListener(new ActionListener() {
@@ -130,7 +130,7 @@ public class AdminPanel extends JPanel{
 
 
 
-        // ROUTE
+        // MANAGE ROUTE
         JButton routeButton = new JButton(new ImageIcon("images/route_icon.png"));
         routeButton.setBounds((Window.WIDTH /2-90) - 100, Window.HEIGHT - 500, 180,180);
         routeButton.addActionListener(new ActionListener() {
@@ -151,7 +151,7 @@ public class AdminPanel extends JPanel{
 
 
 
-        // BUS
+        // MANAGE BUS
         JButton busButton = new JButton(new ImageIcon("images/bus_icon.png"));
         busButton.setBounds((Window.WIDTH /2-90) + 100, Window.HEIGHT - 500, 180,180);
         busButton.addActionListener(new ActionListener() {
@@ -347,7 +347,7 @@ public class AdminPanel extends JPanel{
         logoutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });

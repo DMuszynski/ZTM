@@ -3,6 +3,7 @@ package com.company.managment;
 import com.company.Window;
 import com.company.Main;
 import com.company.Menu;
+import com.company.panels.AdminPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -37,7 +38,7 @@ public class ManageWorker extends JPanel{
         ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
         JPanel managment = new JPanel();
         managment.setSize(400,520);
-        managment.setLocation(Window.WIDTH /2 - 500, 150);
+        managment.setLocation(Window.WIDTH /2 - 650, 150);
         managment.setBackground(new Color(0,0,0,30));
         add(managment);
 
@@ -70,41 +71,28 @@ public class ManageWorker extends JPanel{
         ButtonGroup positionButtons = new ButtonGroup();
 
         JRadioButton driverRadio = new JRadioButton("Kierowca");
-        driverRadio.setBounds(managment.getBounds().x + 100, managment.getBounds().y + 120, 100,30);
+        driverRadio.setBounds(managment.getBounds().x + 100, managment.getBounds().y + 170, 100,30);
         driverRadio.setActionCommand("kierowca");
         add(driverRadio);
         positionButtons.add(driverRadio);
 
         JRadioButton serviceRadio = new JRadioButton("Obsługa");
-        serviceRadio.setBounds(managment.getBounds().x + 200, managment.getBounds().y + 120, 100,30);
+        serviceRadio.setBounds(managment.getBounds().x + 200, managment.getBounds().y + 170, 100,30);
         serviceRadio.setActionCommand("obsługa");
         add(serviceRadio);
         positionButtons.add(serviceRadio);
 
-        //  PŁACA
-        JTextField manageReward = new JTextField("Płaca");
-        manageReward.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 170,120,40);
-        add(manageReward);
 
         //  ID PRACOWNIKA
-        JTextField manageID = new JTextField("ID pracownika");
+        JTextField manageID = new JTextField("ID użytkownika");
         manageID.setBounds(managment.getBounds().x + 130,managment.getBounds().y + 220,140,40);
         add(manageID);
 
-        //  DNI WOLNE
-        JTextField manageDaysOff = new JTextField("Dni wolne");
-        manageDaysOff.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 270,120,40);
-        add(manageDaysOff);
+        //  ID HARMONOGRAMU
+        JTextField manageScheduleId = new JTextField("ID harmonogramu");
+        manageScheduleId.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 270,120,40);
+        add(manageScheduleId);
 
-        //  LOGIN
-        JTextField manageLogin = new JTextField("Login");
-        manageLogin.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 320,120,40);
-        add(manageLogin);
-
-        //  HASŁO
-        JTextField managePassword = new JTextField("Hasło");
-        managePassword.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 370,120,40);
-        add(managePassword);
 
         // MANAGE WORKER
         JButton manageWorker = new JButton("Modyfikuj pracownika");
@@ -114,13 +102,9 @@ public class ManageWorker extends JPanel{
             public void actionPerformed(ActionEvent actionEvent) {
 
                 String currentID = idWorker.getText();
-
                 String position = positionButtons.getSelection().getActionCommand();
-                String model = manageReward.getText();
-                String daysOff= manageDaysOff.getText();
+                String schedule= manageScheduleId.getText();
                 String id = manageID.getText();
-                String login = manageLogin.getText();
-                String password = managePassword.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
@@ -131,12 +115,14 @@ public class ManageWorker extends JPanel{
         // DELETE WORKER
         JButton deleteWorker = new JButton("Usuń pracownika");
         deleteWorker.setBounds(managment.getBounds().x + 110,managment.getBounds().y + 460,180,40);
+        deleteWorker.setBackground(Color.RED);
+        deleteWorker.setOpaque(true);
         deleteWorker.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
-
                 String ID = idWorker.getText();
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
@@ -147,10 +133,37 @@ public class ManageWorker extends JPanel{
 
 
 
+        JPanel infoPanel = new JPanel();
+        infoPanel.setSize(400,520);
+        infoPanel.setLocation(Window.WIDTH/2 - 200, 150);
+        infoPanel.setLayout(null);
+        infoPanel.setBackground(new Color(0,0,0,30));
+        infoPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
+        add(infoPanel);
+
+        JLabel infoPanelLabel = new JLabel("Pracownicy");
+        infoPanelLabel.setFont(new Font("Arial", Font.BOLD, 25));
+        infoPanelLabel.setBounds(infoPanel.getBounds().width/2-80, 20 , 250, 50);
+        infoPanelLabel.setForeground(new Color(14, 165, 191, 248));
+        infoPanel.add(infoPanelLabel);
+
+        JLabel infoPanelContent = new JLabel();
+        infoPanelContent.setText("" +
+                "<html>" +
+                "</html>");
+        infoPanelContent.setFont(new Font("Arial", Font.BOLD, 24));
+        infoPanelContent.setBounds(50, 80 , 400, 350);
+        infoPanelContent.setForeground(Color.white);
+        infoPanel.add(infoPanelContent);
+
+
+
+
+
         ///////////////////////////   CREATION PANEL    /////////////////////////////////////
         JPanel creation = new JPanel();
-        creation.setSize(400,500);
-        creation.setLocation(Window.WIDTH /2 + 100, 150);
+        creation.setSize(400,520);
+        creation.setLocation(Window.WIDTH /2 + 250, 150);
         creation.setBackground(new Color(0,0,0,30));
         add(creation);
 
@@ -163,41 +176,27 @@ public class ManageWorker extends JPanel{
         ButtonGroup positionButtonsCreate = new ButtonGroup();
 
         JRadioButton driverRadioCreate = new JRadioButton("Kierowca");
-        driverRadioCreate.setBounds(creation.getBounds().x + 100, creation.getBounds().y + 80, 100,30);
+        driverRadioCreate.setBounds(creation.getBounds().x + 100, creation.getBounds().y + 120, 100,30);
         driverRadioCreate.setActionCommand("kierowca");
         add(driverRadioCreate);
         positionButtonsCreate.add(driverRadioCreate);
 
         JRadioButton serviceRadioCreate = new JRadioButton("Obsługa");
-        serviceRadioCreate.setBounds(creation.getBounds().x + 200, creation.getBounds().y + 80, 100,30);
+        serviceRadioCreate.setBounds(creation.getBounds().x + 200, creation.getBounds().y + 120, 100,30);
         serviceRadioCreate.setActionCommand("obsługa");
         add(serviceRadioCreate);
         positionButtonsCreate.add(serviceRadioCreate);
 
-        //  PŁACA
-        JTextField createReward = new JTextField("Płaca");
-        createReward.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 120,120,40);
-        add(createReward);
 
-        //  ID
+        //  ID UŻYTKOWNIKA
         JTextField createID = new JTextField("ID pracownika");
         createID.setBounds(creation.getBounds().x + 130,creation.getBounds().y + 170,140,40);
         add(createID);
 
-        //  DNI WOLNE
-        JTextField createDaysOff = new JTextField("Dni wolne");
-        createDaysOff.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 220,120,40);
-        add(createDaysOff);
-
-        //  LOGIN
-        JTextField createLogin = new JTextField("Login");
-        createLogin.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 270,120,40);
-        add(createLogin);
-
-        //  HASŁO
-        JTextField createPassword = new JTextField("Hasło");
-        createPassword.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 320,120,40);
-        add(createPassword);
+        //  ID HARMONOGRAMU
+        JTextField createScheduleId = new JTextField("ID harmonogramu");
+        createScheduleId.setBounds(creation.getBounds().x + 140,creation.getBounds().y + 220,120,40);
+        add(createScheduleId);
 
         // ADD WORKER
         JButton addWorker = new JButton("Dodaj pracownika");
@@ -206,12 +205,9 @@ public class ManageWorker extends JPanel{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
-                String position = positionButtons.getSelection().getActionCommand();
-                String model = createReward.getText();
-                String daysOff= createDaysOff.getText();
+                String position = positionButtonsCreate.getSelection().getActionCommand();
+                String daysOff= createScheduleId.getText();
                 String id = createID.getText();
-                String login = createLogin.getText();
-                String password = createPassword.getText();
 
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
@@ -229,7 +225,7 @@ public class ManageWorker extends JPanel{
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });

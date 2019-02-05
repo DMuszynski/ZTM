@@ -1,8 +1,10 @@
 package com.company.managment;
 
-import com.company.Main;
+import com.company.*;
 import com.company.Menu;
 import com.company.Window;
+import com.company.panels.AdminPanel;
+import com.sun.deploy.ui.AboutDialog;
 
 import javax.swing.*;
 import java.awt.*;
@@ -33,97 +35,45 @@ public class ManageSchedule extends JPanel{
 
 
 
-
-        ///////////////////////////   MANAGMENT PANEL    /////////////////////////////////////
-        JPanel managment = new JPanel();
-        managment.setSize(400,520);
-        managment.setLocation(Window.WIDTH /2 - 200, 150);
-        managment.setBackground(new Color(0,0,0,30));
-        add(managment);
-
-        JLabel managmentLabel = new JLabel("Modyfikuj harmonogram");
-        managmentLabel.setFont(new Font("Arial", Font.BOLD, 25));
-        managmentLabel.setBounds(managment.getBounds().x + 80, 30 , 240, 100);
-        managmentLabel.setForeground(Color.white);
-        managment.add(managmentLabel);
-
-        // WORKER ID
-        JTextField idWorker = new JTextField("ID");
-        idWorker.setBounds(managment.getBounds().x + 80,managment.getBounds().y  + 60,80,40);
-        add(idWorker);
-
-        // FIND WORKER
-        JButton findWorker = new JButton("Znajdź pracownika");
-        findWorker.setBounds(managment.getBounds().x + 170,managment.getBounds().y + 60,180,40);
-        findWorker.addActionListener(new ActionListener() {
+        // MANAGE SCHEDULE
+        JButton manageWorkerScheduleButton = new JButton(new ImageIcon("images/manage_schedule_icon.png"));
+        manageWorkerScheduleButton.setBounds(Window.WIDTH/2 - 380, Window.HEIGHT/2-90, 180,180);
+        manageWorkerScheduleButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
-                String id = idWorker.getText();
-
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setVisible(false);
+                Main.newWindow.setContentPane(new ManageWorkerSchedule());
                 Main.newWindow.revalidate();
             }
         });
-        add(findWorker);
+        add(manageWorkerScheduleButton);
+        JLabel manageWorkerScheduleLabel = new JLabel();
+        manageWorkerScheduleLabel.setText("<html><center>Zarządzanie Harmonogramem Pracownika</center></html>");
+        manageWorkerScheduleLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        manageWorkerScheduleLabel.setBounds(manageWorkerScheduleButton.getBounds().x, manageWorkerScheduleButton.getBounds().y + 185, 180, 60);
+        manageWorkerScheduleLabel.setForeground(Color.white);
+        add(manageWorkerScheduleLabel);
 
-        //  PONIEDZIAŁEK
-        JTextField manageMonday = new JTextField("Poniedziałek");
-        manageMonday.setBounds(managment.getBounds().x + 140,managment.getBounds().y  + 120,120,40);
-        add(manageMonday);
 
-        //  WTOREK
-        JTextField manageTuesday = new JTextField("Wtorek");
-        manageTuesday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 170,120,40);
-        add(manageTuesday);
 
-        //  ŚRODA
-        JTextField manageWednesday = new JTextField("Środa");
-        manageWednesday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 220,120,40);
-        add(manageWednesday);
-
-        //  CZWARTEK
-        JTextField manageThursday = new JTextField("Czwartek");
-        manageThursday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 270,120,40);
-        add(manageThursday);
-
-        //  PIĄTEK
-        JTextField manageFriday = new JTextField("Piątek");
-        manageFriday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 320,120,40);
-        add(manageFriday);
-
-        //  SOBOTA
-        JTextField manageSaturday = new JTextField("Sobota");
-        manageSaturday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 370,120,40);
-        add(manageSaturday);
-
-        //  NIEDZIELA
-        JTextField manageSunday = new JTextField("Niedziela");
-        manageSunday.setBounds(managment.getBounds().x + 140,managment.getBounds().y + 420,120,40);
-        add(manageSunday);
-
-        // MANAGE VEHICLE
-        JButton manageSchedule = new JButton("Modyfikuj harmonogram");
-        manageSchedule.setBounds(managment.getBounds().x + 100,managment.getBounds().y + 470,220,40);
-        manageSchedule.addActionListener(new ActionListener() {
+        //workDays
+        JButton workDaysButton = new JButton(new ImageIcon("images/day_icon.png"));
+        workDaysButton.setBounds( Window.WIDTH/2 + 200, Window.HEIGHT/2 - 90, 180,180);
+        workDaysButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
-                String workerID = idWorker.getText();
-
-                String monday = manageMonday.getText();
-                String tuesday = manageTuesday.getText();
-                String wendesday = manageWednesday.getText();
-                String thursday = manageThursday.getText();
-                String friday = manageFriday.getText();
-                String saturday = manageSaturday.getText();
-                String sunday = manageSunday.getText();
-
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setVisible(false);
+                Main.newWindow.setContentPane(new ManageWorkDay());
                 Main.newWindow.revalidate();
             }
         });
-        add(manageSchedule);
+        add(workDaysButton);
+        JLabel workDaysLabel = new JLabel();
+        workDaysLabel.setText("<html><center>Zarządzanie Dniem Pracy Pracownika</center></html>");
+        workDaysLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        workDaysLabel.setBounds(workDaysButton.getBounds().x, workDaysButton.getBounds().y + 185, 180, 60);
+        workDaysLabel.setForeground(Color.white);
+        add(workDaysLabel);
 
 
 
@@ -135,7 +85,7 @@ public class ManageSchedule extends JPanel{
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                Main.newWindow.setContentPane(new Menu());
+                Main.newWindow.setContentPane(new AdminPanel());
                 Main.newWindow.revalidate();
             }
         });
