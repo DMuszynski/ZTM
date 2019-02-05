@@ -133,6 +133,22 @@ public class AccountSettings extends JPanel{
         updateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                String name = nameField.getText();
+                String surname = surnameField.getText();
+                String birthDate = birthField.getText();
+
+                String email = emailField.getText();
+                String phone = phoneField.getText();
+                String address = addressField.getText();
+
+                String user = usernameField.getText();
+                String password = passwordField.getText();
+                String passwordRepeat = passwordRepeatField.getText();
+
+                String bank = bankName.getText();
+                String number = accountNumber.getText();
+
                 Main.newWindow.setContentPane(new Menu());
                 Main.newWindow.revalidate();
             }
